@@ -36,7 +36,7 @@ public struct YPColors {
     public var assetViewBackgroundColor: UIColor = .offWhiteOrBlack
     
     /// A color for background in filters.
-    public var filterBackgroundColor: UIColor = .offWhiteOrBlack
+    public var filterBackgroundColor: UIColor = .black
 
     /// A color for background in selections gallery. When multiple items selected.
     public var selectionsBackgroundColor: UIColor = .offWhiteOrBlack

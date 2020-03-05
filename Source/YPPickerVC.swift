@@ -120,6 +120,9 @@ open class YPPickerVC: YPBottomPager, YPBottomPagerDelegate {
         
         YPHelper.changeBackButtonIcon(self)
         YPHelper.changeBackButtonTitle(self)
+        
+        libraryVC?.v.assetViewContainer.backgroundColor = .black
+        libraryVC?.v.assetZoomableView.backgroundColor = .black
     }
     
     open override func viewWillAppear(_ animated: Bool) {

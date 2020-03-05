@@ -211,7 +211,7 @@ final class YPAssetZoomableView: UIScrollView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
-        backgroundColor = YPConfig.colors.assetViewBackgroundColor
+        backgroundColor = .black
         frame.size = CGSize.zero
         clipsToBounds = true
         photoImageView.frame = CGRect(origin: CGPoint.zero, size: CGSize.zero)
